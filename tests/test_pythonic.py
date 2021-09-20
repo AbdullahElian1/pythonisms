@@ -13,3 +13,7 @@ def data():
   list.insert(6)
   list.insert(1)
   return list
+  
+def test_len_of_list(data):
+  assert len(data)==3
+  
