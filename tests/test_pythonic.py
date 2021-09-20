@@ -18,3 +18,7 @@ def test_len_of_list(data):
 
 def test_dunder_str_method(data):
     assert str(data)=="[1] -> [6] -> [2] -> None"
+    
+def test_dunder_get_item_method(data):
+    assert data[1] == 6
+
